@@ -46,7 +46,18 @@ If any Error, correct it in code and execute again
 Verify the generated waveform using Tabulation and Model Waveform 
 
 __PROGRAM:__
-
+```
+x = input("Enter the sequence x = ");   // example: [1 2 3]
+Rxx = corr(x, x);
+clf();
+plot(Rxx);
+xtitle("Autocorrelation of x","Lag","Rxx");
+```
 __OUTPUT:__
 
+<img width="1280" height="723" alt="517247825-f3cf0fee-827b-4c6d-ba2d-35d85c4388c6" src="https://github.com/user-attachments/assets/f9b0652c-da34-46ac-a3a5-e66cdda3c2f0" />
+
 __RESULT:__
+
+Thus the Autocorrelation and PSD of signals in SCILAB and verify Wiener-Khinchin relation was verified succesfully and it output was verified.
+
